@@ -1,7 +1,7 @@
 import axios from "axios";
 // GET
 const api = axios.create({
-  baseURL: "http://localhost:3000"
+  baseURL: "https://alurageek-service.onrender.com/"
 })
 
 export const productsList = async (url, setData) => {
@@ -11,7 +11,7 @@ export const productsList = async (url, setData) => {
 
 // POST
 export const createProduct = (product) =>{
-  fetch('http://localhost:3000/products', {
+  fetch('https://alurageek-service.onrender.com/products', {
     method: "POST",
     headers: {
       "Content-type": "application/json"
