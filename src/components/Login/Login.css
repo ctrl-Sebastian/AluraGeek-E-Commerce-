@@ -1,0 +1,9 @@
+.loginPage{
+  background-color: #F5F5F5;
+  padding: 64px;
+}
+
+.loginPage h2,a{
+  text-align: center;
+
+}

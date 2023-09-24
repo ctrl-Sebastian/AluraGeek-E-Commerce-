@@ -1,0 +1,19 @@
+.products{
+  background-color: #F5F5F5;
+  padding: 32px 0;
+}
+
+.allProducts-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.allProducts-top a{
+  padding: 25px 0;
+}
+
+.products-allProducts{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

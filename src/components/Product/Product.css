@@ -1,0 +1,25 @@
+.product{
+  width: 176px;
+  height: 252px;
+}
+
+.product img{
+  width: 176px;
+  height: 174px;
+  align-self: stretch;
+  border: 3px solid #2A7AE4;;
+}
+
+.product h3{
+  color: var(--preto-100, #464646);
+font-family: Raleway;
+font-size: 14px;
+font-weight: 500;
+}
+
+.product h4{
+  color: var(--preto-100, #464646);
+font-family: Raleway;
+font-size: 16px;
+font-weight: 700;
+}

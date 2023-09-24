@@ -1,0 +1,18 @@
+section .productLine-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+section .productLine-top p{
+  text-decoration: none;
+  color: #2A7AE4;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+section .productLine{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

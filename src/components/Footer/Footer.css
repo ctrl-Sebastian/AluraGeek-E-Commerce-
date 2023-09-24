@@ -1,0 +1,11 @@
+.footer{
+  background-color: #EAF2FD;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 10vw;
+}
+
+.end{
+  text-align: center;
+}
